@@ -376,7 +376,8 @@ h5{font-size: 2rem;font-weight: bold;margin-left: 3vw;}
 #skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 #skills div{
     flex: 0 32%;
