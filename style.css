@@ -370,13 +370,31 @@ h5{font-size: 2rem;font-weight: bold;margin-left: 3vw;}
     align-items: center;
     flex-wrap: wrap;
 }
-#skills p:hover span{
-    transition:all 1s ease-in-out;
+#screen4 div{
+    margin-bottom: 10vh;
+}
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#skills div{
+    flex: 0 32%;
+    height: 50%;
+    margin-bottom: 10vh;
+}
+
+#skills div:hover span{
+    transition:all 0.5s ease-in-out;
     color:#3F72AF ;
 }
 #skills p{
     font-size:calc(1vw + 1vh + 1vmin) ;
-    margin: 4vh 0;
+    margin: 2vh 0;
+}
+#skills span{
+    font-size:calc(0.5vw + 1vh + 1vmin) ;
+    margin: 2vh 0;
 }
 /* screen 5 */
 #screen5{
