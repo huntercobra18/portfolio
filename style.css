@@ -428,6 +428,11 @@ h5{font-size: 2rem;font-weight: bold;margin-left: 3vw;}
 } */
 
 @media screen and (max-width:768px)  {
+    /* burgir */
+    #burgir-click{
+        margin-right: 2vw;
+    }
+    
     /* screen1 */
 
     /* screen2 */
